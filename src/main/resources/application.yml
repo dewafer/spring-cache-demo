@@ -1,0 +1,5 @@
+debug: false
+
+logging:
+  level:
+    com.dewafer.cacheDemo: DEBUG
