@@ -66,7 +66,7 @@ public class MemoryUserServiceImpl implements UserService, InitializingBean {
                 User.of("james", "James", 10, Gender.MALE, "Some place on earth."),
                 User.of("emma", "Emma", 22, Gender.FEMALE, "UNKNOWN"),
                 User.of("david", "David", 29, Gender.MALE, "emmmm, I dunno"),
-                User.of("Alfred", "Alfred", null, Gender.UNKNOWN, null)
+                User.of("alfred", "Alfred", null, Gender.UNKNOWN, null)
         ).collect(Collectors.toMap(User::getUsername, Function.identity())));
     }
 }
